@@ -1,0 +1,19 @@
+NOME DELLA TABELLA: dettagli delle auto usate
+
+ID                         INTERO                       MEDIUMINT UNIQUE, AUTOINCREMENT         NOT NULL
+Tipologia                  STRING                       VARCHAR                                 NULL
+Marca                      STRING                       VARCHAR                                 NOT NULL
+Posti                      INTERO                       TINYINT                                 NOT NULL
+Condizioni                 STRING                       VARCHAR                                 NOT NULL
+Immmatricolazione           DATE                        TIMESTAMP                               NOT NULL
+Chilometraggio              INTERO                      SMALLINT                                NOT NULL
+Alimentazione               STRING                      VARCHAR                                 NOT NULL
+Cilindrata                  INTERO                      SMALLINT                                NOT NULL
+Potenza                     INTERO                      SMALLINT                                NOT NULL
+Tipo di cambio              STRING                      VARCHAR                                 NOT NULL
+Porte                       INTERO                      TINYINT                                 NULL
+Descizione                  STRING                      TEXT                                    NOT NULL
+Colore esterno              STRING                      VARCHAR                                 NULL
+Colore interni              STRING                      VARCHAR                                 NULL
+Classe Emissioni            INTERO                      TINYINT                                 NOT NULL
+Prezzo                      FLOAT                       FLOAT(9,2)                              NOT NULL
